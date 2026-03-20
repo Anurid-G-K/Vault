@@ -1,0 +1,51 @@
+name: vault
+description: "Your personal finance assistant"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.2.3
+  provider: ^6.1.1
+  url_launcher: ^6.2.5
+  fl_chart: ^0.68.0
+  audioplayers: ^5.2.1
+  pdf: ^3.10.7
+  printing: ^5.11.1
+  share_plus: ^7.2.1
+  path_provider: ^2.1.1
+  mailer: ^6.0.1
+  open_file: ^3.3.2
+  speech_to_text: ^7.0.0
+  flutter_tts: ^3.8.5
+  home_widget: ^0.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/Pacifico-Regular.ttf
+
+  assets:
+    - assets/icons/
+    - assets/icons/hurt/
+    - assets/icons/neutral/
+    - assets/icons/happy/
+    - assets/icons/celebrate/
+    - assets/icons/longtimenosee/
+    - assets/icons/skins/
+    - assets/icons/evolutions/
+    - assets/sounds/
